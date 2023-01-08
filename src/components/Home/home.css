@@ -1,0 +1,126 @@
+
+.home_container{
+ /* padding: 2rem 4rem; */
+}
+
+.home_container h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.products{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 2rem;
+   position: relative;
+}
+
+.product{
+   max-width: 100%;
+   width: 250px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 1rem auto;
+   padding: 1rem;
+   border-radius: 15px;
+   box-shadow: -5px -5px 5px rgba(255,255,255,0.5), 2px 2px 5px rgba(94, 104,121, 0.3);
+}
+.product img{
+    width: 60%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 0.3rem;
+}
+
+.product .details{
+ display: flex;
+ align-items:center;
+ justify-content: space-between;
+}
+
+.product .details .price{
+ font-size: 1rem;
+ font-weight: 600;
+}
+.product .details .desc{
+    text-align: center;
+    margin-bottom: 0.2rem;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product button{
+    width: 90%;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 1.15px;
+    background-color: #4b70e2;
+    transition: all 0.2s ease;
+}
+
+.product button:hover{
+    background-color: #3c61d1;
+}
+
+.cart_icon{
+   align-self: center;
+   margin-right: 0.5rem;
+}
+
+
+.ribbon_wrapper {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.ribbon_wrapper::before, .ribbon_wrapper::after{
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: #f2467b;
+  z-index: -1;
+}
+
+.ribbon_wrapper::before{
+   top: 0;
+   right: 0;
+}
+
+.ribbon_wrapper::after{
+   bottom: 0;
+   left: 0;
+}
+
+.ribbon{
+   width: 200px;
+   font-size: 12px;
+   text-align: center;
+   padding: 8px 0;
+   background: #ff2166;
+   color: #fff;
+   position: absolute;
+   transform:rotate(-45deg);
+   right: -18%;
+   top: 29%;
+}

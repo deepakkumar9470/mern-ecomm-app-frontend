@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300&family=Rubik:wght@300;400&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider{
+  margin: 10px 0;
+  padding: 40px;
+}
+.slider .slider_head{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #354259;
+  font-weight: lighter;
+}
+.slider_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0  auto;
+  background: #CDF0EA;
+  padding: 10px;
+  width: 420px;
+  height: 150px;
+  border-radius: 4px;
+  box-shadow: 1px 0px 12px -7px rgba(0,0,0,0.75);
+}
+.slider .slider_card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.access_para{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 0.2rem;
+    color: #143F6B;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+li{
+  list-style: none;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #39311D;
+  
+}
+
+
+
+/* .header_bg_img{
+
+}
+
+.c_img{
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.nav-link{
+	list-style: none !important;
+  text-transform: uppercase !important;
+	font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+  color: #fff !important;
+}
+.nav-link:hover{
+  color: #FEB139;
+}
+.nav-link-prod{
+  text-decoration: none;
+  list-style: none;
+	color: #000;
+}
+.nav-link-prod:hover{
+  color: rgb(44, 40, 40);
+}
+
+
+.prodname{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.card{
+
+}
+
+.login_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login_form input{
+  width: 400px;
+} */

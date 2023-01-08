@@ -1,0 +1,36 @@
+
+
+.product_preview{
+   /* width: 80rem; */
+}
+
+.product_preview_list{
+   width:60rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.product_preview_list img{
+   width: 50%;
+   height: 500px;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.product_preview_details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product_preview_details h1{
+    font-size: 2rem;
+}
+
+.product_preview_details .price{
+  font-size: 0.9rem;
+}
+
+.product_preview_details p{
+    font-size: 1rem;
+}
