@@ -2,7 +2,7 @@
 
 //  export const url = 'http://localhost:5000/api'
 
- export const url = 'https://mern-ecomm-app-backend.onrender.com'
+ export const url = 'https://mern-ecomm-app-backend.onrender.com/api'
 
 
 

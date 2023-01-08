@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Header from '../Header/Header'
-import { useDispatch, useSelector} from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { addToCart } from '../../redux/cartSlice'
 import {BsCartPlus} from 'react-icons/bs'
 import {useNavigate} from 'react-router-dom'

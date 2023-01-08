@@ -1,5 +1,4 @@
 
-import React,{useRef} from 'react'
 import { MdSend } from "react-icons/md";
 import styled from "styled-components";
 import bg from '../../images/bg-new.jpg'

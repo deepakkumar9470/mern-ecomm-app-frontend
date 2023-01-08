@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import { DataGrid} from '@mui/x-data-grid';
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import axios from 'axios'
 import styled from 'styled-components'
 import {FaTrash,FaEye} from 'react-icons/fa'
@@ -10,7 +10,6 @@ import EditProduct from '../EditProduct';
 import toast from 'react-hot-toast';
 
 const  Productlists =()=> {
-  // const {items} = useSelector((state) => state.products)
   const [items,setItems] = useState([])
   const navigate = useNavigate()
   const dispatch = useDispatch()
@@ -122,8 +121,4 @@ const Delete = styled.button`
 
 const View = styled.button`
   background-color: rgb(114,255,40);
-`
-
-const Edit = styled.button`
-  background-color: #52c2f7;
 `

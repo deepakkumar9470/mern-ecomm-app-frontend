@@ -85,13 +85,6 @@ const Navbar = () => {
 
 export default Navbar
 
-const LogOut = styled.div`
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  color: #000;
-  font-family: 'Rubik', sans-serif;
-  cursor: pointer;
-`
 const Links = styled.div`
   color: #39311D;
   display: flex;

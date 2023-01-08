@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useEffect} from 'react';
 import { DataGrid} from '@mui/x-data-grid';
 import { useDispatch,useSelector } from 'react-redux';
 import styled from 'styled-components'
@@ -106,16 +106,8 @@ const Actions  = styled.div`
 const Delete = styled.button`
   background-color: rgb(255,77,73);
 `
-const DeliveryBtn = styled.button`
-  background-color: rgb(102,108,255);
-`
-const DispatchBtn = styled.button`
-  background-color: rgb(38,198,249);
-`
+
 const View = styled.button`
   background-color: rgb(114,255,40);
 `
 
-const Edit = styled.button`
-  background-color: #52c2f7;
-`

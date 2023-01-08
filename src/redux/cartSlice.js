@@ -1,6 +1,5 @@
-import {createSlice,createAsyncThunk} from '@reduxjs/toolkit'
-import axios from 'axios'
-import {url} from '../api'
+import {createSlice} from '@reduxjs/toolkit'
+
 
 
 import {toast} from 'react-hot-toast'
